@@ -1,0 +1,111 @@
+:root{
+--corprinlet: rgb(179, 255, 2);
+--corseclet: rgb(0, 255, 255);
+--corterlet:rgb(0, 0, 0);
+
+--fonteprin:'Itim', cursive;
+
+--corfunprim:rgb(29, 29, 80);
+--corfunsec: rgb(109, 0, 0);
+--corfunter:rgb(0, 255, 255);
+
+
+}
+
+*{
+
+    box-sizing:border-box;
+}
+
+body{
+background-color:var(--corfunprim);
+color: var(--corprinlet);
+font-family:var(--fonteprin);
+}
+
+input,select{
+background-color: var(--corfunsec);
+color:var(--corprinlet);
+font-family:var(--fonteprin);
+font-size:large;
+border: 0.05cm solid var(--corfunter);
+border-radius:0.5cm;
+}
+
+button{
+background-color:var(--corfunter);
+color:var(--corterlet);
+font-family:var(--fonteprin);
+font-size:large;
+border:0.1cm solid var(--corfunter);
+border-radius:0.2cm;
+}
+
+
+    
+
+td ,.tabelalegal{
+
+
+border: 2px solid rgb(255, 145, 2);
+border-collapse:collapse;
+}
+
+#tabela_despesas{
+
+margin-top:10%;
+
+}
+
+tr:nth-child(1){
+
+    color:var(--corterlet);
+    background-color:var(--corfunter);
+}
+
+#camdep{
+
+display:flex;
+justify-content:space-between;
+margin-bottom:0.5cm;
+}
+#campart{
+
+
+    display:flex;
+    justify-content:space-between;
+    
+}
+#titulo{
+text-align:center;
+
+}
+
+.selecionavel:hover{
+
+color:rgb(255, 0, 0);
+background-color:rgb(9, 255, 0);
+}
+    
+table{
+    border-collapse:collapse;
+}
+
+#titulo{
+
+    color:var(--corprinlet);
+    text-shadow:0cm 0cm 1.5cm greenyellow , 0cm 0cm 1cm yellow, 0cm 0cm 0.5cm green;
+
+}
+
+#foto{
+width:10vw;
+height:auto;
+
+
+}
+.bordafoto{
+
+    border:0.5vh solid rgb(255, 145, 2);
+    border-radius:15%;
+}
